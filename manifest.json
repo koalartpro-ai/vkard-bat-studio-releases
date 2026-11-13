@@ -1,9 +1,9 @@
 {
-  "version": "1.2.2",
-  "archive": "vkard-bat-studio-1.2.2.tar.gz",
-  "sha256": "ddf821d20fbf926f976d1de822eb73504e7d4ade07f25e35aab681f1132b2594",
+  "version": "1.2.3",
+  "archive": "vkard-bat-studio-1.2.3.tar.gz",
+  "sha256": "c6cbac0cc0be7581e71e2acce040b55611b23c51c130b855b69480d0a7b74f41",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Metal Silver et Metal Gold : le verso est désormais en PVC noir (comme le support PVC noir, avec sous-couche blanche automatique sous les couleurs). Vos profils Metal sont mis à jour automatiquement.\nContrôles : lecture du QR code plus fiable, et sous-couche blanche du verso correctement prise en compte.",
-  "publishedAt": "2026-11-13T13:12:23.735Z"
+  "notes": "Formats officiels par support :\n- PVC blanc et PVC noir : 85,5 × 54 mm\n- Metal Silver et Metal Gold : 85 × 54 mm\n- Bambou : 85,2 × 53,7 mm\nIls sont utilisés pour le contrôle du fichier, le cadrage, les faces à plat à l'échelle 1:1 et le BAT. Un fichier au mauvais format est signalé avec le format attendu. Modifiables dans Matières > Format de la carte.",
+  "publishedAt": "2026-11-13T13:17:21.916Z"
 }
