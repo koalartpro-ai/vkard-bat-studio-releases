@@ -1,9 +1,9 @@
 {
-  "version": "1.3.0",
-  "archive": "vkard-bat-studio-1.3.0.tar.gz",
-  "sha256": "d5c828a3eb6bab826b11b11c9e3a10b91129464cfa7ab7471f59a48667c57739",
+  "version": "1.4.0",
+  "archive": "vkard-bat-studio-1.4.0.tar.gz",
+  "sha256": "26e3ee62e7e8e1299fab1594d205d55df89b9095a67acd40d9fa0ab5d4f9d513",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Nouveau mockup haute définition (6000 px), recalculé en 3D :\n- contours et coins arrondis parfaitement nets à tous les niveaux de zoom ;\n- vraie épaisseur de carte, avec la tranche de la couleur du support (or, argent, noir, bois…) ;\n- ombres douces et éclairage conservés.\nExports PNG / JPEG en 6000 px et PDF BAT plus nets. L'ancien mockup reste disponible dans Templates.",
-  "publishedAt": "2026-11-13T13:51:28.319Z"
+  "notes": "Nouveau : composez vos propres mises en scène 3D (Templates > Composer une scène 3D).\n- Déplacez et faites pivoter chaque carte à la souris (Maj pour incliner, Ctrl pour tourner) ou avec des réglages précis.\n- Caméra, direction de la lumière et ombres réglables : les ombres au sol et l'ombre d'une carte sur l'autre sont recalculées automatiquement.\n- Ajoutez des cartes, puis enregistrez : le template est créé en 6000 px, déjà calibré, utilisable aussitôt dans le Studio. Il reste modifiable ensuite.",
+  "publishedAt": "2026-11-13T14:03:12.317Z"
 }
