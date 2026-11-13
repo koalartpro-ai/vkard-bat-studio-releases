@@ -1,9 +1,9 @@
 {
-  "version": "1.4.2",
-  "archive": "vkard-bat-studio-1.4.2.tar.gz",
-  "sha256": "1fbb241ecdd0ec4158bf2effe165f61387ed79af467e64ccc8ea0a4d7bc93b20",
+  "version": "1.4.3",
+  "archive": "vkard-bat-studio-1.4.3.tar.gz",
+  "sha256": "86f2b858e399a8f0ee3cfc4168af2aef8fb79c5ba3559c5095c5dee033c874df",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Cartes Bambou : la photo de bambou utilisée en fond de vos fichiers est retirée automatiquement, seul le design est imprimé sur le bois.\n- La matière Bambou utilise maintenant la vraie photo du bambou VKARD (avec un grain de fibres fin pour les gros plans).\n- Si un fichier avec fond bambou est utilisé sur un autre support, un avertissement le signale.",
-  "publishedAt": "2026-11-13T14:47:01.876Z"
+  "notes": "Nouveau bouton « Aperçu du BAT » : le PDF s'affiche à l'écran avant d'être téléchargé ou enregistré.\n- Depuis l'aperçu : « Télécharger ce PDF » (rangé dans le dossier s'il existe) ou « Créer le dossier / Enregistrer une version ».\n- Rien n'est enregistré tant que vous ne cliquez pas ; Échap ferme l'aperçu, les flèches changent de page (BAT complet).",
+  "publishedAt": "2026-11-13T14:56:11.341Z"
 }
