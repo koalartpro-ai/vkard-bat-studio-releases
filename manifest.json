@@ -1,9 +1,9 @@
 {
-  "version": "1.2.1",
-  "archive": "vkard-bat-studio-1.2.1.tar.gz",
-  "sha256": "ada5d8e5e57458dcbccf107250b979417de19992376f05b3012f6b11e73137eb",
+  "version": "1.2.2",
+  "archive": "vkard-bat-studio-1.2.2.tar.gz",
+  "sha256": "ddf821d20fbf926f976d1de822eb73504e7d4ade07f25e35aab681f1132b2594",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Mockup beaucoup plus net :\n- l'aperçu s'adapte à la résolution de l'écran et se recalcule en haute définition quand vous zoomez (plus d'effet pixelisé) ;\n- PDF BAT avec un mockup en très haute définition, exports PNG / JPEG en 6000 px.\nLogo VKARD officiel dans l'application.",
-  "publishedAt": "2026-11-13T13:03:36.429Z"
+  "notes": "Metal Silver et Metal Gold : le verso est désormais en PVC noir (comme le support PVC noir, avec sous-couche blanche automatique sous les couleurs). Vos profils Metal sont mis à jour automatiquement.\nContrôles : lecture du QR code plus fiable, et sous-couche blanche du verso correctement prise en compte.",
+  "publishedAt": "2026-11-13T13:12:23.735Z"
 }
