@@ -1,9 +1,9 @@
 {
-  "version": "1.4.0",
-  "archive": "vkard-bat-studio-1.4.0.tar.gz",
-  "sha256": "26e3ee62e7e8e1299fab1594d205d55df89b9095a67acd40d9fa0ab5d4f9d513",
+  "version": "1.4.1",
+  "archive": "vkard-bat-studio-1.4.1.tar.gz",
+  "sha256": "e047c3fdd7a45008bd79bdd34b65c97080eb4a3fc8c14002441c186a4930fc14",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Nouveau : composez vos propres mises en scène 3D (Templates > Composer une scène 3D).\n- Déplacez et faites pivoter chaque carte à la souris (Maj pour incliner, Ctrl pour tourner) ou avec des réglages précis.\n- Caméra, direction de la lumière et ombres réglables : les ombres au sol et l'ombre d'une carte sur l'autre sont recalculées automatiquement.\n- Ajoutez des cartes, puis enregistrez : le template est créé en 6000 px, déjà calibré, utilisable aussitôt dans le Studio. Il reste modifiable ensuite.",
-  "publishedAt": "2026-11-13T14:03:12.317Z"
+  "notes": "Cartes Metal : le fond noir de vos fichiers est toujours retiré, et seul le design est pris (gravé au recto, imprimé au verso PVC noir).\n- Détection du fond noir fiabilisée : elle se base sur le pourtour de la carte, et fonctionne même avec un très grand logo clair.\n- Les dossiers créés avant le mode automatique sont mis à jour : leur fond noir n'est plus gravé.",
+  "publishedAt": "2026-11-13T14:31:52.819Z"
 }
