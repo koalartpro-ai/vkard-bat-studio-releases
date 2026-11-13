@@ -1,9 +1,9 @@
 {
-  "version": "1.2.4",
-  "archive": "vkard-bat-studio-1.2.4.tar.gz",
-  "sha256": "70e0999fff8f2c8542b5d5ff7b3f3419ff0e839006300a26e7cf4f60ca69a43d",
+  "version": "1.3.0",
+  "archive": "vkard-bat-studio-1.3.0.tar.gz",
+  "sha256": "d5c828a3eb6bab826b11b11c9e3a10b91129464cfa7ab7471f59a48667c57739",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Cartes Metal : fichiers sur fond noir gérés automatiquement.\n- Recto : le fond noir est reconnu comme le revêtement, les éléments clairs sont gravés (métal révélé). Les fichiers sur fond blanc ou transparent restent gravés sur les éléments sombres. Choix modifiable dans Gravure laser > Zones gravées.\n- Verso : le noir du fichier correspond au PVC noir (pas d'encre ni de sous-couche blanche), y compris le noir « riche » d'Illustrator.\n- Plus d'avertissement de fond perdu inutile sur ces fonds noirs.",
-  "publishedAt": "2026-11-13T13:24:12.216Z"
+  "notes": "Nouveau mockup haute définition (6000 px), recalculé en 3D :\n- contours et coins arrondis parfaitement nets à tous les niveaux de zoom ;\n- vraie épaisseur de carte, avec la tranche de la couleur du support (or, argent, noir, bois…) ;\n- ombres douces et éclairage conservés.\nExports PNG / JPEG en 6000 px et PDF BAT plus nets. L'ancien mockup reste disponible dans Templates.",
+  "publishedAt": "2026-11-13T13:51:28.319Z"
 }
