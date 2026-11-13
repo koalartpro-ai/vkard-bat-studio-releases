@@ -1,7 +1,8 @@
-# VKARD BAT Studio — versions Windows
+# VKARD BAT Studio — mises à jour
 
-Ce dépôt ne contient que les installateurs publiés de **VKARD BAT Studio** (le code source est privé).
+Ce dépôt public ne contient que les mises à jour de **VKARD BAT Studio** (aucun code source, aucune donnée client) :
 
-L'application installée vérifie automatiquement les nouvelles versions publiées ici (onglet **Releases**), les télécharge en arrière-plan et propose de redémarrer pour les installer.
+- `manifest.json` : dernière version publiée (numéro, archive, empreinte SHA-256, notes) ;
+- `vkard-bat-studio-x.y.z.tar.gz` : moteur et interface de cette version (les 3 dernières sont conservées).
 
-Installation manuelle : télécharger `VKARD-BAT-Studio-Setup-x.y.z.exe` dans la dernière release.
+L'application installée lit `manifest.json` au démarrage puis toutes les 4 h, télécharge l'archive, vérifie son empreinte et propose de redémarrer. Les fichiers sont servis gratuitement par GitHub (raw.githubusercontent.com).
