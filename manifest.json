@@ -1,9 +1,9 @@
 {
-  "version": "1.4.3",
-  "archive": "vkard-bat-studio-1.4.3.tar.gz",
-  "sha256": "86f2b858e399a8f0ee3cfc4168af2aef8fb79c5ba3559c5095c5dee033c874df",
+  "version": "1.5.0",
+  "archive": "vkard-bat-studio-1.5.0.tar.gz",
+  "sha256": "08b19f7065e3ed2ca0b5700c836cd893c90cdd9f0eda89c34125c62e544b0e5f",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Nouveau bouton « Aperçu du BAT » : le PDF s'affiche à l'écran avant d'être téléchargé ou enregistré.\n- Depuis l'aperçu : « Télécharger ce PDF » (rangé dans le dossier s'il existe) ou « Créer le dossier / Enregistrer une version ».\n- Rien n'est enregistré tant que vous ne cliquez pas ; Échap ferme l'aperçu, les flèches changent de page (BAT complet).",
-  "publishedAt": "2026-11-13T14:56:11.341Z"
+  "notes": "Gros gain de temps : je dépose, je vérifie, je clique.\n- Matière choisie automatiquement à l'import (nom du fichier, format bambou / metal / PVC, fond noir), client et n° de commande lus dans le nom du fichier.\n- Bouton « BAT prêt » (Ctrl + Entrée) : enregistre le dossier, génère PDF + PNG HD et les copie dans Documents\\VKARD BAT\\BAT prêts\\<client - commande>.\n- Statut des dossiers (À faire, Prêt à envoyer, Envoyé, À corriger, Validé) avec filtres, duplication, comparaison de deux versions.\n- Envoi du BAT au client par e-mail depuis l'application (à configurer dans Réglages).\n- Nouvel onglet « Lot » : plusieurs BAT d'un coup ; fichiers …recto / …verso réunis automatiquement.\n- Dossier surveillé (Réglages) : un fichier glissé dans « BAT à faire » devient un BAT tout seul.\n- Lien du QR code affiché en clair ; raccourcis Ctrl + S (enregistrer) et Ctrl + P (aperçu).",
+  "publishedAt": "2026-11-13T15:27:30.162Z"
 }
