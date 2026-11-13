@@ -1,0 +1,9 @@
+{
+  "version": "1.2.0",
+  "archive": "vkard-bat-studio-1.2.0.tar.gz",
+  "sha256": "34834aacf6f6c35bb033c25c86db03e97165257ee9a37afcb43dddb56aa968d4",
+  "minShell": 1,
+  "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
+  "notes": "Mises à jour automatiques sans réinstallation (comme TEIKO Admin) : les nouvelles versions se téléchargent au démarrage, puis l'application propose de redémarrer.",
+  "publishedAt": "2026-11-13T12:45:47.623Z"
+}
