@@ -1,9 +1,9 @@
 {
-  "version": "1.2.0",
-  "archive": "vkard-bat-studio-1.2.0.tar.gz",
-  "sha256": "34834aacf6f6c35bb033c25c86db03e97165257ee9a37afcb43dddb56aa968d4",
+  "version": "1.2.1",
+  "archive": "vkard-bat-studio-1.2.1.tar.gz",
+  "sha256": "ada5d8e5e57458dcbccf107250b979417de19992376f05b3012f6b11e73137eb",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Mises à jour automatiques sans réinstallation (comme TEIKO Admin) : les nouvelles versions se téléchargent au démarrage, puis l'application propose de redémarrer.",
-  "publishedAt": "2026-11-13T12:45:47.623Z"
+  "notes": "Mockup beaucoup plus net :\n- l'aperçu s'adapte à la résolution de l'écran et se recalcule en haute définition quand vous zoomez (plus d'effet pixelisé) ;\n- PDF BAT avec un mockup en très haute définition, exports PNG / JPEG en 6000 px.\nLogo VKARD officiel dans l'application.",
+  "publishedAt": "2026-11-13T13:03:36.429Z"
 }
