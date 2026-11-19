@@ -1,8 +1,8 @@
 {
-  "version": "1.0.3",
-  "archive": "planche-qr-1.0.3.tar.gz",
+  "version": "1.0.4",
+  "archive": "planche-qr-1.0.4.tar.gz",
   "minShell": 1,
-  "sha256": "a76b90beb8d73ea9dd9d31e29d5d4119ed3fe2209d6db240f75d7203b421eff4",
-  "notes": "- Détection complète du QR dans la carte PDF : taille, position, style (boîte blanche, texte VKARD.IO, QR seul), version (nombre de modules) et niveau de correction d'erreur lus dans le QR lui-même. Les nouveaux QR sont générés avec la même correction.\n- Le modèle est créé automatiquement dès l'ouverture de la carte PDF. Aperçu avec les éléments repérés en surbrillance ; rôles et style modifiables, puis « Recréer ».\n",
-  "publishedAt": "2026-11-19T11:29:16.713Z"
+  "sha256": "85fb7779c5ac4ade247b80df5aa8d284f067b6f9866cbed11edf11e1e5ed6a81",
+  "notes": "- Lecture des repères de fusion InDesign dans la carte PDF : chaque <<Champ>> (ex. <<Prénom>> <<Nom>>, <<Poste>>, <<Mail>>, +<<numero>>) devient la colonne du même nom du CSV, à la même place, avec la même police, taille et couleur.\n- Le cadre <<QRCodes>> donne l'emplacement et la taille du QR : il est remplacé par le QR de la charte (boîte blanche + VKARD.IO). Le texte VKARD.IO et le cadre de repère sont retirés du visuel.\n- Téléphone « +<<numero>> » formaté automatiquement (+33 7 64 75 24 08).\n",
+  "publishedAt": "2026-11-19T11:34:57.469Z"
 }
