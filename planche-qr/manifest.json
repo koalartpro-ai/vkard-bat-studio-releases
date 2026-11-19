@@ -1,8 +1,8 @@
 {
-  "version": "1.0.7",
-  "archive": "planche-qr-1.0.7.tar.gz",
+  "version": "1.0.8",
+  "archive": "planche-qr-1.0.8.tar.gz",
   "minShell": 1,
-  "sha256": "7d75ea92e459e8e9f1f00d60026807fd8853fefd236fd19a3a3579ad56fda0d0",
-  "notes": "- Nouvelle étape 1 « Format de planche » : choisis au départ le format sur lequel partir (taille de page, nombre de cartes, taille des cartes, écarts, marges). Format fourni : planche à plat 304 × 412 mm, 18 cartes 89,5 × 58 mm.\n- « Enregistrer ce format » : garde tes propres formats sur ce poste ; l'application repart sur le dernier format utilisé.\n- Correctif : des boutons qui devaient être cachés restaient visibles.\n",
-  "publishedAt": "2026-11-19T11:54:41.255Z"
+  "sha256": "1d6d96a4ce84eff5feba86a0b29a212c1da488089d286c10635982180a7d1ec2",
+  "notes": "- Formats de planche modifiables : change les valeurs à l'étape 5, puis « Mettre à jour » pour enregistrer le format modifié (y compris le format fourni, avec « Rétablir l'original »).\n- Renommer et supprimer tes formats (« Nouveau format, renommer, supprimer » dans l'étape 1).\n- L'application repart sur le dernier format utilisé, avec tes modifications.\n",
+  "publishedAt": "2026-11-19T11:57:02.248Z"
 }
