@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5",
-  "archive": "planche-qr-1.0.5.tar.gz",
+  "version": "1.0.6",
+  "archive": "planche-qr-1.0.6.tar.gz",
   "minShell": 1,
-  "sha256": "b43f431eea033abc2da1fe7abe2e23319d5936354a35a2f5987ba43257f97762",
-  "notes": "- Contenu des textes modifiable plus facilement : ce que tu ajoutes autour d'une colonne s'applique à toutes les cartes (ex. « +{numero} » met un + devant chaque numéro, « Tél. {numero} »…).\n- Aperçu en direct du résultat sous le champ Contenu.\n- Bouton « Insérer » : colonne + format au choix (tel quel, MAJUSCULES, minuscules, Initiales, téléphone +33 6 00 00 00 00, téléphone +33600000000).\n- Plus de double « ++ » quand le + est déjà présent.\n",
-  "publishedAt": "2026-11-19T11:36:15.249Z"
+  "sha256": "17de19c7543459165f0f0bd06c595723018303f0a866f8c6880b2549cdd6182a",
+  "notes": "- Polices : le PDF généré contient maintenant le vrai nom de la police (ex. Avenir-Book), Illustrator la reconnaît donc comme ta police installée (fini les « Book-5465 » manquantes).\n- Recherche des polices installées par leur nom exact (Avenir-Book, Avenir-Black, Avenir-Heavy…) depuis la carte PDF et dans les modèles.\n- Police vraiment absente : remplacée par Arial (présente sur tous les PC Windows) au lieu d'Helvetica, et signalée dans le message.\n",
+  "publishedAt": "2026-11-19T11:52:21.067Z"
 }
