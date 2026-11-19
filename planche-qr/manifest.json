@@ -1,8 +1,8 @@
 {
-  "version": "1.0.13",
-  "archive": "planche-qr-1.0.13.tar.gz",
+  "version": "1.0.14",
+  "archive": "planche-qr-1.0.14.tar.gz",
   "minShell": 1,
-  "sha256": "1d088a5d9ff3403d8833f6db793604f7b1f89cde32a47de868adc8d5580ee144",
-  "notes": "- Tous les formats remplissent les planches dans le même sens : une planche incomplète est calée à la fin (dernières cartes en bas à droite). Réglable à l'étape 5.\n",
-  "publishedAt": "2026-11-19T12:15:53.076Z"
+  "sha256": "2bb28aab432f647528e53b0f06cde22f8e5550a37733c0f6fe96cf0ccc0f9df5",
+  "notes": "Interface réorganisée, plus simple :\n- 4 étapes : 1 Format · 2 Carte · 3 Données · 4 Ajuster (facultatif). Les mesures de la planche sont rangées sous le format (« Modifier les mesures… »).\n- « Ouvrir la carte » détecte tout automatiquement (QR, champs, fond). Le détail de la détection se replie en une ligne de résumé ; les options avancées (PDF tel quel, variante, ajustement) sont dans « Options de la carte ».\n- Bouton « Générer la planche » toujours visible en haut à droite.\n- Bloc « Planche » : schéma + liste de contrôle (format, carte, données, colonnes, QR) pour voir d'un coup d'œil ce qui est prêt ou ce qui manque.\n- Flèches ◀ ▶ pour passer d'une carte à l'autre dans l'aperçu.\n- Correctif : l'ordre de remplissage affiché correspond maintenant au format choisi.\n",
+  "publishedAt": "2026-11-19T12:27:22.404Z"
 }
