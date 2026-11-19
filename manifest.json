@@ -1,9 +1,9 @@
 {
-  "version": "1.6.1",
-  "archive": "vkard-bat-studio-1.6.1.tar.gz",
-  "sha256": "6abe1a4f6fe59be0087724b4175310d5202c5dfa6d8ad90c4537de7235452ce9",
+  "version": "1.6.2",
+  "archive": "vkard-bat-studio-1.6.2.tar.gz",
+  "sha256": "9212814504fa3a888bf4b8f16d60600e64601ae464821f95e109de496ab3fb93",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "- Sélecteur « BAT Studio | Planches » à côté du logo : on bascule d'un espace à l'autre sans mélanger les onglets. La barre BAT Studio (Studio, Dossiers, Lot, Templates, Matières, Réglages) n'apparaît qu'en mode BAT Studio ; le retour ramène à la dernière page, et le travail en cours dans Planches est conservé.",
-  "publishedAt": "2026-11-19T14:44:23.032Z"
+  "notes": "Planches :\n- Nouvelle carte : la fenêtre « Vérifier la nouvelle carte » s'ouvre toute seule, en grand, avec les éléments numérotés (textes remplacés, textes fixes, QR). Rôle de chaque texte et style du QR modifiables, appliqués tout de suite.\n- Polices : chaque texte indique si sa police est trouvée ou remplacée ; « Choisir la police » cherche dans les polices installées. Le choix s'applique à tous les textes qui demandent la même police et est retenu pour les prochaines cartes.",
+  "publishedAt": "2026-11-19T15:16:51.880Z"
 }
