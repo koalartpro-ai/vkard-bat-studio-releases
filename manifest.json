@@ -1,9 +1,9 @@
 {
-  "version": "1.6.0",
-  "archive": "vkard-bat-studio-1.6.0.tar.gz",
-  "sha256": "28d0da2cc28bceedd39bc3d95ebd9763746257a13a95bbbdc6e57c38a4d20780",
+  "version": "1.6.1",
+  "archive": "vkard-bat-studio-1.6.1.tar.gz",
+  "sha256": "6abe1a4f6fe59be0087724b4175310d5202c5dfa6d8ad90c4537de7235452ce9",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Nouvel onglet « Planches » : planches d'impression de cartes avec QR codes (ex-VKARD Planche QR), dans BAT Studio.\n- Ouvre une carte PDF (ou une page de fusion InDesign) : QR, champs et fond détectés automatiquement ; ajoute l'Excel/CSV, génère les planches PDF/AI en CMJN (à plat 18 cartes, boards A3 verso 21 cartes PVC / bambou / métal).\n- Bouton « Créer la planche » dans le Studio : ouvre le verso du dossier, choisit le board selon la matière, reprend client et n° de commande pour le nom des fichiers.\n- Un fichier par planche, rangés dans un dossier quand il y en a plusieurs. Modèles et formats de planche partagés dans le dossier de données.\n- La coquille de l'application se met désormais à jour en direct (installateur 1.6 à installer une dernière fois).",
-  "publishedAt": "2026-11-19T14:20:37.024Z"
+  "notes": "- Sélecteur « BAT Studio | Planches » à côté du logo : on bascule d'un espace à l'autre sans mélanger les onglets. La barre BAT Studio (Studio, Dossiers, Lot, Templates, Matières, Réglages) n'apparaît qu'en mode BAT Studio ; le retour ramène à la dernière page, et le travail en cours dans Planches est conservé.",
+  "publishedAt": "2026-11-19T14:44:23.032Z"
 }
