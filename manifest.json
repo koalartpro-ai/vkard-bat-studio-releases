@@ -1,9 +1,9 @@
 {
-  "version": "1.6.2",
-  "archive": "vkard-bat-studio-1.6.2.tar.gz",
-  "sha256": "9212814504fa3a888bf4b8f16d60600e64601ae464821f95e109de496ab3fb93",
+  "version": "1.6.4",
+  "archive": "vkard-bat-studio-1.6.4.tar.gz",
+  "sha256": "70bb4ee129e02fb66cf57154388e91be8c7ae31d5f7829e534d19645a12b37a0",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Nouvelle carte : la fenêtre « Vérifier la nouvelle carte » s'ouvre toute seule, en grand, avec les éléments numérotés (textes remplacés, textes fixes, QR). Rôle de chaque texte et style du QR modifiables, appliqués tout de suite.\n- Polices : chaque texte indique si sa police est trouvée ou remplacée ; « Choisir la police » cherche dans les polices installées. Le choix s'applique à tous les textes qui demandent la même police et est retenu pour les prochaines cartes.",
-  "publishedAt": "2026-11-19T15:16:51.880Z"
+  "notes": "Planches :\n- Polices variables (ex. Work Sans de Google) : la graisse de chaque texte (Regular, Bold…) est maintenant lue dans le PDF de la carte, l'aperçu et la planche respectent le gras.\n- Nouveau réglage « Textes dans le PDF » : Automatique (vectorise seulement les polices variables pour garder la bonne graisse), Toujours modifiables (texte éditable dans Illustrator), ou Tout vectoriser (contours, aucune police requise à l'impression). Le choix est retenu.",
+  "publishedAt": "2026-11-19T15:48:30.923Z"
 }
