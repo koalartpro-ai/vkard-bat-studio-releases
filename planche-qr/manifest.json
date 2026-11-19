@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
-  "archive": "planche-qr-1.0.1.tar.gz",
+  "version": "1.0.2",
+  "archive": "planche-qr-1.0.2.tar.gz",
   "minShell": 1,
-  "sha256": "a1be7a06b3b8fd29f2aacc1652b76d38d97c90ce5fa4404485627daab8453c4e",
-  "notes": "- Lecture des CSV Excel en encodage Windows (accents « Prénom » corrects).\n- Colonnes reconnues en plus : « numero » (téléphone), « #QRCodes » (lien du QR), « Mail ».\n- Téléphones formatés automatiquement (33764752408 devient +33 7 64 75 24 08).\n- Apostrophes typographiques (d’activité) et retour à la ligne automatique des titres trop longs, avec la variante de carte à 2 lignes.\n- Avertissement quand une colonne attendue n'est pas trouvée.\n",
-  "publishedAt": "2026-11-19T11:03:42.771Z"
+  "sha256": "025539f6259078d56962f80dde4aa82bdc39444e57c4e39e814449537bcda8bd",
+  "notes": "- Nouveau : « Créer le modèle depuis une carte PDF complète ». Ouvre une carte type (textes d'exemple + QR) : l'application détecte le fond, le QR vectoriel et les textes (Prénom NOM, Poste, E-mail, Téléphone) avec leurs polices, tailles, couleurs et positions, les retire du visuel et crée le modèle. Il ne reste qu'à charger le CSV.\n- Fond perdu : une carte de 85 × 55 mm est centrée dans l'emplacement de 89,5 × 58 mm et son fond uni (CMJN exact, noir riche compris) est étendu. Fond non uni : carte étirée.\n- Lecture des CSV Windows, colonnes « numero » et « #QRCodes », téléphones formatés (déjà en 1.0.1).\n",
+  "publishedAt": "2026-11-19T11:19:51.407Z"
 }
