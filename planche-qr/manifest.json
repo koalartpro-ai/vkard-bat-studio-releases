@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "archive": "planche-qr-1.0.0.tar.gz",
+  "minShell": 1,
+  "sha256": "21d0aefaf2daa6bc47ecaed708f287566f1eccef71a2b8716b92c0b07ca23dce",
+  "notes": "Première version : génération de planches de cartes avec QR codes (styles VKARD), modèle Aircontrol fourni.\n",
+  "publishedAt": "2026-11-19T10:59:11.048Z"
+}
