@@ -1,9 +1,9 @@
 {
-  "version": "1.5.0",
-  "archive": "vkard-bat-studio-1.5.0.tar.gz",
-  "sha256": "08b19f7065e3ed2ca0b5700c836cd893c90cdd9f0eda89c34125c62e544b0e5f",
+  "version": "1.6.0",
+  "archive": "vkard-bat-studio-1.6.0.tar.gz",
+  "sha256": "28d0da2cc28bceedd39bc3d95ebd9763746257a13a95bbbdc6e57c38a4d20780",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Gros gain de temps : je dépose, je vérifie, je clique.\n- Matière choisie automatiquement à l'import (nom du fichier, format bambou / metal / PVC, fond noir), client et n° de commande lus dans le nom du fichier.\n- Bouton « BAT prêt » (Ctrl + Entrée) : enregistre le dossier, génère PDF + PNG HD et les copie dans Documents\\VKARD BAT\\BAT prêts\\<client - commande>.\n- Statut des dossiers (À faire, Prêt à envoyer, Envoyé, À corriger, Validé) avec filtres, duplication, comparaison de deux versions.\n- Envoi du BAT au client par e-mail depuis l'application (à configurer dans Réglages).\n- Nouvel onglet « Lot » : plusieurs BAT d'un coup ; fichiers …recto / …verso réunis automatiquement.\n- Dossier surveillé (Réglages) : un fichier glissé dans « BAT à faire » devient un BAT tout seul.\n- Lien du QR code affiché en clair ; raccourcis Ctrl + S (enregistrer) et Ctrl + P (aperçu).",
-  "publishedAt": "2026-11-13T15:27:30.162Z"
+  "notes": "Nouvel onglet « Planches » : planches d'impression de cartes avec QR codes (ex-VKARD Planche QR), dans BAT Studio.\n- Ouvre une carte PDF (ou une page de fusion InDesign) : QR, champs et fond détectés automatiquement ; ajoute l'Excel/CSV, génère les planches PDF/AI en CMJN (à plat 18 cartes, boards A3 verso 21 cartes PVC / bambou / métal).\n- Bouton « Créer la planche » dans le Studio : ouvre le verso du dossier, choisit le board selon la matière, reprend client et n° de commande pour le nom des fichiers.\n- Un fichier par planche, rangés dans un dossier quand il y en a plusieurs. Modèles et formats de planche partagés dans le dossier de données.\n- La coquille de l'application se met désormais à jour en direct (installateur 1.6 à installer une dernière fois).",
+  "publishedAt": "2026-11-19T14:20:37.024Z"
 }
