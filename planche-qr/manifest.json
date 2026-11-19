@@ -1,8 +1,8 @@
 {
-  "version": "1.0.14",
-  "archive": "planche-qr-1.0.14.tar.gz",
+  "version": "1.1.0",
+  "archive": "planche-qr-1.1.0.tar.gz",
   "minShell": 1,
-  "sha256": "2bb28aab432f647528e53b0f06cde22f8e5550a37733c0f6fe96cf0ccc0f9df5",
-  "notes": "Interface réorganisée, plus simple :\n- 4 étapes : 1 Format · 2 Carte · 3 Données · 4 Ajuster (facultatif). Les mesures de la planche sont rangées sous le format (« Modifier les mesures… »).\n- « Ouvrir la carte » détecte tout automatiquement (QR, champs, fond). Le détail de la détection se replie en une ligne de résumé ; les options avancées (PDF tel quel, variante, ajustement) sont dans « Options de la carte ».\n- Bouton « Générer la planche » toujours visible en haut à droite.\n- Bloc « Planche » : schéma + liste de contrôle (format, carte, données, colonnes, QR) pour voir d'un coup d'œil ce qui est prêt ou ce qui manque.\n- Flèches ◀ ▶ pour passer d'une carte à l'autre dans l'aperçu.\n- Correctif : l'ordre de remplissage affiché correspond maintenant au format choisi.\n",
-  "publishedAt": "2026-11-19T12:27:22.404Z"
+  "sha256": "4e662a7aaf2d79c06ba0a34779433bb4ed6c74bc59f3d6c49de29066b5d7b2b2",
+  "notes": "- Noms de fichiers automatiques, en MAJUSCULES : N° de commande - Client - PLANCHE - Type (APLAT / BOARD) - Modèle - Couleur ou matière [- Face] - 01, 02… (ex. 610152-PREFIKAR-PLANCHE-APLAT-CLASSIQUE-BLANC-01.ai). Les infos sont lues dans le nom de la carte et du fichier de données, et restent modifiables (bloc Planche > Nom des fichiers).\n- Un fichier par planche. Plusieurs planches : enregistrées ensemble dans un dossier du même nom (avec le nouvel installateur 1.1 ; sinon proposées une par une, déjà nommées).\n- Choix .ai ou .pdf mémorisé.\n",
+  "publishedAt": "2026-11-19T12:37:43.213Z"
 }
