@@ -1,8 +1,8 @@
 {
-  "version": "1.0.6",
-  "archive": "planche-qr-1.0.6.tar.gz",
+  "version": "1.0.7",
+  "archive": "planche-qr-1.0.7.tar.gz",
   "minShell": 1,
-  "sha256": "17de19c7543459165f0f0bd06c595723018303f0a866f8c6880b2549cdd6182a",
-  "notes": "- Polices : le PDF généré contient maintenant le vrai nom de la police (ex. Avenir-Book), Illustrator la reconnaît donc comme ta police installée (fini les « Book-5465 » manquantes).\n- Recherche des polices installées par leur nom exact (Avenir-Book, Avenir-Black, Avenir-Heavy…) depuis la carte PDF et dans les modèles.\n- Police vraiment absente : remplacée par Arial (présente sur tous les PC Windows) au lieu d'Helvetica, et signalée dans le message.\n",
-  "publishedAt": "2026-11-19T11:52:21.067Z"
+  "sha256": "7d75ea92e459e8e9f1f00d60026807fd8853fefd236fd19a3a3579ad56fda0d0",
+  "notes": "- Nouvelle étape 1 « Format de planche » : choisis au départ le format sur lequel partir (taille de page, nombre de cartes, taille des cartes, écarts, marges). Format fourni : planche à plat 304 × 412 mm, 18 cartes 89,5 × 58 mm.\n- « Enregistrer ce format » : garde tes propres formats sur ce poste ; l'application repart sur le dernier format utilisé.\n- Correctif : des boutons qui devaient être cachés restaient visibles.\n",
+  "publishedAt": "2026-11-19T11:54:41.255Z"
 }
