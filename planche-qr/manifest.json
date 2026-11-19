@@ -1,8 +1,8 @@
 {
-  "version": "1.0.8",
-  "archive": "planche-qr-1.0.8.tar.gz",
+  "version": "1.0.9",
+  "archive": "planche-qr-1.0.9.tar.gz",
   "minShell": 1,
-  "sha256": "1d6d96a4ce84eff5feba86a0b29a212c1da488089d286c10635982180a7d1ec2",
-  "notes": "- Formats de planche modifiables : change les valeurs à l'étape 5, puis « Mettre à jour » pour enregistrer le format modifié (y compris le format fourni, avec « Rétablir l'original »).\n- Renommer et supprimer tes formats (« Nouveau format, renommer, supprimer » dans l'étape 1).\n- L'application repart sur le dernier format utilisé, avec tes modifications.\n",
-  "publishedAt": "2026-11-19T11:57:02.248Z"
+  "sha256": "7c77b5020fd045b85b0378b403f3ded839fe883a2c90e207425d3a2b02facaa4",
+  "notes": "- Formats standards par matière (dimensions officielles VKARD Studio, 2 mm de fond perdu, mêmes positions de cartes sur la planche) :\n  · PVC blanc / noir : cartes 85,5 × 54 mm (emplacements 89,5 × 58)\n  · Bambou : cartes 85,2 × 53,7 mm (emplacements 89,2 × 57,7)\n  · Métal Silver / Gold : cartes 85 × 54 mm (emplacements 89 × 58)\n- Carte livrée avec plus de fond perdu (ex. 4 mm) : centrée sur son format fini (TrimBox) et rognée proprement à l'emplacement, sans déborder sur les écarts.\n",
+  "publishedAt": "2026-11-19T12:01:26.848Z"
 }
