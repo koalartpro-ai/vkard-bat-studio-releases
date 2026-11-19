@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
-  "archive": "planche-qr-1.0.0.tar.gz",
+  "version": "1.0.1",
+  "archive": "planche-qr-1.0.1.tar.gz",
   "minShell": 1,
-  "sha256": "21d0aefaf2daa6bc47ecaed708f287566f1eccef71a2b8716b92c0b07ca23dce",
-  "notes": "Première version : génération de planches de cartes avec QR codes (styles VKARD), modèle Aircontrol fourni.\n",
-  "publishedAt": "2026-11-19T10:59:11.048Z"
+  "sha256": "a1be7a06b3b8fd29f2aacc1652b76d38d97c90ce5fa4404485627daab8453c4e",
+  "notes": "- Lecture des CSV Excel en encodage Windows (accents « Prénom » corrects).\n- Colonnes reconnues en plus : « numero » (téléphone), « #QRCodes » (lien du QR), « Mail ».\n- Téléphones formatés automatiquement (33764752408 devient +33 7 64 75 24 08).\n- Apostrophes typographiques (d’activité) et retour à la ligne automatique des titres trop longs, avec la variante de carte à 2 lignes.\n- Avertissement quand une colonne attendue n'est pas trouvée.\n",
+  "publishedAt": "2026-11-19T11:03:42.771Z"
 }
