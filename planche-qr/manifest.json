@@ -1,8 +1,8 @@
 {
-  "version": "1.0.2",
-  "archive": "planche-qr-1.0.2.tar.gz",
+  "version": "1.0.3",
+  "archive": "planche-qr-1.0.3.tar.gz",
   "minShell": 1,
-  "sha256": "025539f6259078d56962f80dde4aa82bdc39444e57c4e39e814449537bcda8bd",
-  "notes": "- Nouveau : « Créer le modèle depuis une carte PDF complète ». Ouvre une carte type (textes d'exemple + QR) : l'application détecte le fond, le QR vectoriel et les textes (Prénom NOM, Poste, E-mail, Téléphone) avec leurs polices, tailles, couleurs et positions, les retire du visuel et crée le modèle. Il ne reste qu'à charger le CSV.\n- Fond perdu : une carte de 85 × 55 mm est centrée dans l'emplacement de 89,5 × 58 mm et son fond uni (CMJN exact, noir riche compris) est étendu. Fond non uni : carte étirée.\n- Lecture des CSV Windows, colonnes « numero » et « #QRCodes », téléphones formatés (déjà en 1.0.1).\n",
-  "publishedAt": "2026-11-19T11:19:51.407Z"
+  "sha256": "a76b90beb8d73ea9dd9d31e29d5d4119ed3fe2209d6db240f75d7203b421eff4",
+  "notes": "- Détection complète du QR dans la carte PDF : taille, position, style (boîte blanche, texte VKARD.IO, QR seul), version (nombre de modules) et niveau de correction d'erreur lus dans le QR lui-même. Les nouveaux QR sont générés avec la même correction.\n- Le modèle est créé automatiquement dès l'ouverture de la carte PDF. Aperçu avec les éléments repérés en surbrillance ; rôles et style modifiables, puis « Recréer ».\n",
+  "publishedAt": "2026-11-19T11:29:16.713Z"
 }
