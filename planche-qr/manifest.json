@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
-  "archive": "planche-qr-1.1.0.tar.gz",
+  "version": "1.1.1",
+  "archive": "planche-qr-1.1.1.tar.gz",
   "minShell": 1,
-  "sha256": "4e662a7aaf2d79c06ba0a34779433bb4ed6c74bc59f3d6c49de29066b5d7b2b2",
-  "notes": "- Noms de fichiers automatiques, en MAJUSCULES : N° de commande - Client - PLANCHE - Type (APLAT / BOARD) - Modèle - Couleur ou matière [- Face] - 01, 02… (ex. 610152-PREFIKAR-PLANCHE-APLAT-CLASSIQUE-BLANC-01.ai). Les infos sont lues dans le nom de la carte et du fichier de données, et restent modifiables (bloc Planche > Nom des fichiers).\n- Un fichier par planche. Plusieurs planches : enregistrées ensemble dans un dossier du même nom (avec le nouvel installateur 1.1 ; sinon proposées une par une, déjà nommées).\n- Choix .ai ou .pdf mémorisé.\n",
-  "publishedAt": "2026-11-19T12:37:43.213Z"
+  "sha256": "fd4ec5ad779a6dcefae971278be2ec1a6a7d659f5b4b91153a77a8ee97f9365c",
+  "notes": "- Mes modèles : « Enregistrer le modèle » les range dans la liste « Modèles… » (en haut), avec les modèles fournis. Ils restent dans l'application ; renommer = réenregistrer sous un autre nom, suppression possible. « Ouvrir un modèle » (.json) l'ajoute aussi à la liste. Export en fichier .json pour le partager.\n- Le modèle garde aussi le format de planche.\n- Aperçu : le fond perdu étendu s'affiche maintenant correctement (le PDF était déjà juste).\n",
+  "publishedAt": "2026-11-19T12:45:21.838Z"
 }
