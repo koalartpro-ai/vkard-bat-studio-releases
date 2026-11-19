@@ -1,8 +1,8 @@
 {
-  "version": "1.0.11",
-  "archive": "planche-qr-1.0.11.tar.gz",
+  "version": "1.0.12",
+  "archive": "planche-qr-1.0.12.tar.gz",
   "minShell": 1,
-  "sha256": "2b0498b9643f2f5a443b623d31b431c35f1369a7372eb81a6693c53a2b273138",
-  "notes": "- Formats Board A3 (bambou et métal) : prévus pour les versos, la planche incomplète est calée à la fin automatiquement (dernières cartes en bas à droite). La planche PVC à plat reste remplie depuis le début.\n",
-  "publishedAt": "2026-11-19T12:11:28.032Z"
+  "sha256": "c73a45a38a11960430eeba35e925567e7f49ceb91af4626276169eb09c6e18dc",
+  "notes": "- Noms des formats harmonisés : Support · Matière · nombre de cartes · taille de carte.\n- À plat : 18 cartes de 89,5 × 58 mm.\n- Nouveau : Board A3 · PVC blanc / noir · 21 cartes de 85,5 × 54 mm (board verso, cartes jointives, calées à la fin), à côté du bambou et du métal.\n",
+  "publishedAt": "2026-11-19T12:13:35.707Z"
 }
