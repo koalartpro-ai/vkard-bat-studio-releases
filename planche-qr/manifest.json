@@ -1,8 +1,8 @@
 {
-  "version": "1.0.4",
-  "archive": "planche-qr-1.0.4.tar.gz",
+  "version": "1.0.5",
+  "archive": "planche-qr-1.0.5.tar.gz",
   "minShell": 1,
-  "sha256": "85fb7779c5ac4ade247b80df5aa8d284f067b6f9866cbed11edf11e1e5ed6a81",
-  "notes": "- Lecture des repères de fusion InDesign dans la carte PDF : chaque <<Champ>> (ex. <<Prénom>> <<Nom>>, <<Poste>>, <<Mail>>, +<<numero>>) devient la colonne du même nom du CSV, à la même place, avec la même police, taille et couleur.\n- Le cadre <<QRCodes>> donne l'emplacement et la taille du QR : il est remplacé par le QR de la charte (boîte blanche + VKARD.IO). Le texte VKARD.IO et le cadre de repère sont retirés du visuel.\n- Téléphone « +<<numero>> » formaté automatiquement (+33 7 64 75 24 08).\n",
-  "publishedAt": "2026-11-19T11:34:57.469Z"
+  "sha256": "b43f431eea033abc2da1fe7abe2e23319d5936354a35a2f5987ba43257f97762",
+  "notes": "- Contenu des textes modifiable plus facilement : ce que tu ajoutes autour d'une colonne s'applique à toutes les cartes (ex. « +{numero} » met un + devant chaque numéro, « Tél. {numero} »…).\n- Aperçu en direct du résultat sous le champ Contenu.\n- Bouton « Insérer » : colonne + format au choix (tel quel, MAJUSCULES, minuscules, Initiales, téléphone +33 6 00 00 00 00, téléphone +33600000000).\n- Plus de double « ++ » quand le + est déjà présent.\n",
+  "publishedAt": "2026-11-19T11:36:15.249Z"
 }
