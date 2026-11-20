@@ -1,9 +1,9 @@
 {
-  "version": "1.6.8",
-  "archive": "vkard-bat-studio-1.6.8.tar.gz",
-  "sha256": "ead223b34106a00ca73b092c55c4112d3b5285801b166d3fc1aed6b68f221fb0",
+  "version": "1.6.9",
+  "archive": "vkard-bat-studio-1.6.9.tar.gz",
+  "sha256": "54f8805b35677524a365e349fe2a322b5f689fb99f8fdd6e1e8618dfd2d56979",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches (suite, plus simple pour un premier usage) :\n- Étapes dans l'ordre : 1 Ta carte → 2 Tes données → 3 Format d'impression → 4 Ajuster, avec « à faire / ✓ fait » et l'étape en cours mise en avant.\n- Bouton « ? Lexique » : Carte, Données, Format, Planche, Modèle, texte variable / fixe.\n- Textes en clair (« Prénom + NOM »), détails techniques en info-bulle.\n- Colonne absente du fichier : choisis directement la colonne à utiliser.\n- Police manquante : message clair et bouton « Ajouter le fichier de police », appliquée automatiquement.\n- Menu « Modèles ▾ » unique, boutons d'ouverture intégrés aux zones de dépôt, astuce clavier au premier déplacement.",
-  "publishedAt": "2026-11-20T11:19:58.486Z"
+  "notes": "Planches :\n- Aperçu de la carte : contour de la carte finie selon la matière (PVC 85,5 × 54, Bambou 85,2 × 53,7, Métal 85 × 54) et contour de l'aplat avec la zone de fond perdu qui dépasse. Choix « Contour : … » dans la barre de l'aperçu (automatique selon le format ou la matière). Affichage à l'écran seulement, rien n'est ajouté à la planche.",
+  "publishedAt": "2026-11-20T11:28:14.346Z"
 }
