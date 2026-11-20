@@ -1,9 +1,9 @@
 {
-  "version": "1.6.7",
-  "archive": "vkard-bat-studio-1.6.7.tar.gz",
-  "sha256": "f88508c4965fb8e6f7aeee1831d8fb5446c83090922ec4f1baef47e266416a41",
+  "version": "1.6.8",
+  "archive": "vkard-bat-studio-1.6.8.tar.gz",
+  "sha256": "ead223b34106a00ca73b092c55c4112d3b5285801b166d3fc1aed6b68f221fb0",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches (plus simple pour un premier usage) :\n- Mode démonstration signalé par un bandeau ; « Générer la planche » est bloqué tant que la carte ou les noms sont des exemples.\n- Vérification de la carte présentée comme une étape : « Valider la carte et continuer ». Ouvrir le CSV pendant la vérification la valide automatiquement.\n- Pour chaque texte de la carte : « Ce texte change-t-il d'une carte à l'autre ? » Oui (il vient de mon fichier) / Non (identique partout).\n- Bouton « Générer la planche » : nombre de points à vérifier affiché, et liste des points avant de générer.",
-  "publishedAt": "2026-11-20T10:36:47.541Z"
+  "notes": "Planches (suite, plus simple pour un premier usage) :\n- Étapes dans l'ordre : 1 Ta carte → 2 Tes données → 3 Format d'impression → 4 Ajuster, avec « à faire / ✓ fait » et l'étape en cours mise en avant.\n- Bouton « ? Lexique » : Carte, Données, Format, Planche, Modèle, texte variable / fixe.\n- Textes en clair (« Prénom + NOM »), détails techniques en info-bulle.\n- Colonne absente du fichier : choisis directement la colonne à utiliser.\n- Police manquante : message clair et bouton « Ajouter le fichier de police », appliquée automatiquement.\n- Menu « Modèles ▾ » unique, boutons d'ouverture intégrés aux zones de dépôt, astuce clavier au premier déplacement.",
+  "publishedAt": "2026-11-20T11:19:58.486Z"
 }
