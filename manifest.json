@@ -1,9 +1,9 @@
 {
-  "version": "1.7.1",
-  "archive": "vkard-bat-studio-1.7.1.tar.gz",
-  "sha256": "8b8641b09ae495ee243ba84d323b3e2de69c9bc2eb7f73db0df0fae5922a28cb",
+  "version": "1.7.2",
+  "archive": "vkard-bat-studio-1.7.2.tar.gz",
+  "sha256": "5e49993711dfea885d798f034631ded427aaafe40075f949124f2054177f9908",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Visuels :\n- Formats corrigés : quickview en 1800 × 1200, image de partage en 1200 × 640.",
-  "publishedAt": "2026-11-20T14:10:21.101Z"
+  "notes": "Planches :\n- Correction : les textes et le QR restent à leur place sur la carte quand on change de format (avant, ils pouvaient descendre de 2 mm en passant de « À plat » à un board).\n- Correction : la graisse des polices variables (ex. Work Sans) est bien reconnue (Regular, Bold…) au lieu de Thin.",
+  "publishedAt": "2026-11-20T15:01:11.560Z"
 }
