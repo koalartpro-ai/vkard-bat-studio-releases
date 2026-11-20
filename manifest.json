@@ -1,9 +1,9 @@
 {
-  "version": "1.6.13",
-  "archive": "vkard-bat-studio-1.6.13.tar.gz",
-  "sha256": "e81351fe41f98548cac3f12f087e907a98cbd83a59c20953e733b1c9e157031e",
+  "version": "1.6.14",
+  "archive": "vkard-bat-studio-1.6.14.tar.gz",
+  "sha256": "9b4a7b22e84ba9aa719f846833e2c16b0ad7b1096ad884f97a04f1def5e80c89",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Zoom sur la planche (boutons − / +, Ctrl + molette, double-clic), déplacement à la souris et mode plein écran.\n- Cotes jusqu'à la carte finie (bleu) en plus de l'aplat : marges et écarts réels entre cartes coupées. Position exacte de chaque carte au survol.\n- Nouveau réglage « Quand je modifie une mesure, ajuster » : la marge opposée, les écarts entre cartes (marges fixes) ou les deux marges (planche centrée). Le champ ajusté est surligné.",
-  "publishedAt": "2026-11-20T12:47:16.645Z"
+  "notes": "Planches :\n- Mesures présentées en schéma : la page avec ses marges haut / bas / gauche / droite autour des cartes, puis la carte avec son fond perdu autour de la carte finie.\n- Fond perdu réglable séparément sur les 4 côtés.\n- Clique une cote sur le schéma de la planche pour la modifier directement.",
+  "publishedAt": "2026-11-20T13:09:15.244Z"
 }
