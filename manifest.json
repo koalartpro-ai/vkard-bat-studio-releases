@@ -1,9 +1,9 @@
 {
-  "version": "1.6.4",
-  "archive": "vkard-bat-studio-1.6.4.tar.gz",
-  "sha256": "70bb4ee129e02fb66cf57154388e91be8c7ae31d5f7829e534d19645a12b37a0",
+  "version": "1.6.5",
+  "archive": "vkard-bat-studio-1.6.5.tar.gz",
+  "sha256": "8583a52df2cceebe9ed92e442f2919c1b5aee21929b4980b78e0dd2f794d9a4c",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Polices variables (ex. Work Sans de Google) : la graisse de chaque texte (Regular, Bold…) est maintenant lue dans le PDF de la carte, l'aperçu et la planche respectent le gras.\n- Nouveau réglage « Textes dans le PDF » : Automatique (vectorise seulement les polices variables pour garder la bonne graisse), Toujours modifiables (texte éditable dans Illustrator), ou Tout vectoriser (contours, aucune police requise à l'impression). Le choix est retenu.",
-  "publishedAt": "2026-11-19T15:48:30.923Z"
+  "notes": "Planches :\n- Aimantation et repères intelligents (comme Illustrator) : en déplaçant un texte ou le QR, ils s'accrochent aux bords et au centre de la carte et aux autres éléments, avec des repères magenta. Maintiens Alt pour déplacer librement.",
+  "publishedAt": "2026-11-20T10:22:18.052Z"
 }
