@@ -1,9 +1,9 @@
 {
-  "version": "1.6.15",
-  "archive": "vkard-bat-studio-1.6.15.tar.gz",
-  "sha256": "11f65dc8a6bc073d338b2c2cc14205feaf4a3d009d96b79721fb084d027cf327",
+  "version": "1.7.0",
+  "archive": "vkard-bat-studio-1.7.0.tar.gz",
+  "sha256": "3ad050c00e9c465f58869260e49f667ea5f32e5c00e807b2431982d2ccfca28f",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Correction : on saisit maintenant la carte finie et le fond perdu s'ajoute autour (aplat = carte finie + fond perdu). Avant, le fond perdu était retiré de la carte saisie.\n- Taille de l'aplat affichée dans les mesures.",
-  "publishedAt": "2026-11-20T13:19:48.790Z"
+  "notes": "Nouvel onglet « Visuels » :\n- Dépose un logo (SVG, PDF, AI, PNG ou JPG) : il est centré et adapté automatiquement à 3 formats.\n- Bandeau 552 × 240 en SVG (forme arrondie du gabarit, fond couleur ou image détourée dans la forme).\n- Image de partage 1800 × 1200 et quickview 1200 × 620 en JPG.\n- Logo en couleurs d'origine, tout blanc ou tout noir ; taille et position réglables par format (glisser sur l'aperçu, molette).",
+  "publishedAt": "2026-11-20T14:01:47.321Z"
 }
