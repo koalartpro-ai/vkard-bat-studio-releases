@@ -1,9 +1,9 @@
 {
-  "version": "1.6.10",
-  "archive": "vkard-bat-studio-1.6.10.tar.gz",
-  "sha256": "fa888857a5df76addda1a78590167a1470d17617f5da720f6e3be4cc2c873f16",
+  "version": "1.6.11",
+  "archive": "vkard-bat-studio-1.6.11.tar.gz",
+  "sha256": "f08c03da475fa0170bd3a92731e6a2671beed3bce1e046323df75f3de89103e1",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Police réglable texte par texte : changer la police d'un texte ne modifie plus les autres textes qui utilisaient la même police dans la carte.",
-  "publishedAt": "2026-11-20T11:48:30.014Z"
+  "notes": "Planches :\n- Marges droite et bas modifiables dans « Modifier les mesures » : les cartes se décalent et la marge gauche / haut s'ajuste automatiquement.",
+  "publishedAt": "2026-11-20T12:02:04.655Z"
 }
