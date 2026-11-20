@@ -1,9 +1,9 @@
 {
-  "version": "1.6.9",
-  "archive": "vkard-bat-studio-1.6.9.tar.gz",
-  "sha256": "54f8805b35677524a365e349fe2a322b5f689fb99f8fdd6e1e8618dfd2d56979",
+  "version": "1.6.10",
+  "archive": "vkard-bat-studio-1.6.10.tar.gz",
+  "sha256": "fa888857a5df76addda1a78590167a1470d17617f5da720f6e3be4cc2c873f16",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Aperçu de la carte : contour de la carte finie selon la matière (PVC 85,5 × 54, Bambou 85,2 × 53,7, Métal 85 × 54) et contour de l'aplat avec la zone de fond perdu qui dépasse. Choix « Contour : … » dans la barre de l'aperçu (automatique selon le format ou la matière). Affichage à l'écran seulement, rien n'est ajouté à la planche.",
-  "publishedAt": "2026-11-20T11:28:14.346Z"
+  "notes": "Planches :\n- Police réglable texte par texte : changer la police d'un texte ne modifie plus les autres textes qui utilisaient la même police dans la carte.",
+  "publishedAt": "2026-11-20T11:48:30.014Z"
 }
