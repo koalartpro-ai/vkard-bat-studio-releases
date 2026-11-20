@@ -1,9 +1,9 @@
 {
-  "version": "1.6.11",
-  "archive": "vkard-bat-studio-1.6.11.tar.gz",
-  "sha256": "f08c03da475fa0170bd3a92731e6a2671beed3bce1e046323df75f3de89103e1",
+  "version": "1.6.12",
+  "archive": "vkard-bat-studio-1.6.12.tar.gz",
+  "sha256": "d02469633e3d82d16f27c45869eee412fb05580468517e9d06756ca561f97133",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Marges droite et bas modifiables dans « Modifier les mesures » : les cartes se décalent et la marge gauche / haut s'ajuste automatiquement.",
-  "publishedAt": "2026-11-20T12:02:04.655Z"
+  "notes": "Planches :\n- Schéma de la planche agrandi avec les cotes en direct : page, marges gauche / droite / haut / bas, écarts entre cartes, taille de la carte et de la carte finie.\n- Options sur le schéma : cotes, visuel de la carte dans chaque emplacement, trait de coupe.\n- Fond perdu modifiable dans « Modifier les mesures » (gauche / droite et haut / bas), enregistré avec le format et visible sur l'aperçu et la planche.",
+  "publishedAt": "2026-11-20T12:29:40.106Z"
 }
