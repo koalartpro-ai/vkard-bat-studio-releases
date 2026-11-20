@@ -1,9 +1,9 @@
 {
-  "version": "1.7.0",
-  "archive": "vkard-bat-studio-1.7.0.tar.gz",
-  "sha256": "3ad050c00e9c465f58869260e49f667ea5f32e5c00e807b2431982d2ccfca28f",
+  "version": "1.7.1",
+  "archive": "vkard-bat-studio-1.7.1.tar.gz",
+  "sha256": "8b8641b09ae495ee243ba84d323b3e2de69c9bc2eb7f73db0df0fae5922a28cb",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Nouvel onglet « Visuels » :\n- Dépose un logo (SVG, PDF, AI, PNG ou JPG) : il est centré et adapté automatiquement à 3 formats.\n- Bandeau 552 × 240 en SVG (forme arrondie du gabarit, fond couleur ou image détourée dans la forme).\n- Image de partage 1800 × 1200 et quickview 1200 × 620 en JPG.\n- Logo en couleurs d'origine, tout blanc ou tout noir ; taille et position réglables par format (glisser sur l'aperçu, molette).",
-  "publishedAt": "2026-11-20T14:01:47.321Z"
+  "notes": "Visuels :\n- Formats corrigés : quickview en 1800 × 1200, image de partage en 1200 × 640.",
+  "publishedAt": "2026-11-20T14:10:21.101Z"
 }
