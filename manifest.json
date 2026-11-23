@@ -1,9 +1,9 @@
 {
-  "version": "1.7.2",
-  "archive": "vkard-bat-studio-1.7.2.tar.gz",
-  "sha256": "5e49993711dfea885d798f034631ded427aaafe40075f949124f2054177f9908",
+  "version": "1.7.3",
+  "archive": "vkard-bat-studio-1.7.3.tar.gz",
+  "sha256": "40439108378f412351677989f8dc8c19f6cb541f5280505776f1f2f84f91b035",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Correction : les textes et le QR restent à leur place sur la carte quand on change de format (avant, ils pouvaient descendre de 2 mm en passant de « À plat » à un board).\n- Correction : la graisse des polices variables (ex. Work Sans) est bien reconnue (Regular, Bold…) au lieu de Thin.",
-  "publishedAt": "2026-11-20T15:01:11.560Z"
+  "notes": "Planches :\n- Texte trop long : il n'est plus réduit sans te demander. L'aperçu signale la largeur dépassée et propose : réduire la taille si besoin, passer à la ligne, élargir la zone, laisser dépasser, ou voir la carte concernée.\n- Nouveau réglage par texte « Si le texte dépasse la largeur max » : me prévenir (par défaut), réduire automatiquement, ou laisser dépasser.",
+  "publishedAt": "2026-11-23T12:36:15.934Z"
 }
