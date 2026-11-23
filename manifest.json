@@ -1,9 +1,9 @@
 {
-  "version": "1.7.3",
-  "archive": "vkard-bat-studio-1.7.3.tar.gz",
-  "sha256": "40439108378f412351677989f8dc8c19f6cb541f5280505776f1f2f84f91b035",
+  "version": "1.7.4",
+  "archive": "vkard-bat-studio-1.7.4.tar.gz",
+  "sha256": "af02b82b8ebb04a33d87037469a2e853964cd6f980fd68a66da1fe7b0ffc9308",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Texte trop long : il n'est plus réduit sans te demander. L'aperçu signale la largeur dépassée et propose : réduire la taille si besoin, passer à la ligne, élargir la zone, laisser dépasser, ou voir la carte concernée.\n- Nouveau réglage par texte « Si le texte dépasse la largeur max » : me prévenir (par défaut), réduire automatiquement, ou laisser dépasser.",
-  "publishedAt": "2026-11-23T12:36:15.934Z"
+  "notes": "Planches :\n- Police par champ : quand le prénom et le nom sont sur une même ligne, choisis une police ou une graisse différente pour chacun (ex. prénom en Regular, NOM en Bold). Réglage dans le panneau du texte, « Police par champ ».\n- Avec une police variable, garde « Textes dans le fichier : Automatique » pour conserver les graisses dans la planche.",
+  "publishedAt": "2026-11-23T12:44:20.442Z"
 }
