@@ -1,9 +1,9 @@
 {
-  "version": "1.7.10",
-  "archive": "vkard-bat-studio-1.7.10.tar.gz",
-  "sha256": "30912efd28a0e4ddb530a29df55132f1f86172c9f71c4f904f8bc75a7a182244",
+  "version": "1.7.11",
+  "archive": "vkard-bat-studio-1.7.11.tar.gz",
+  "sha256": "15efd282dc59df50c54b54965aedd797c20dd50e98e53eca57480733cda7b5a1",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Sécurité :\n- Planches : les PDF clients ne peuvent plus exécuter de code dans l'application (faille pdf.js CVE-2024-4367 neutralisée, exécution de code interdite dans la page).\n- Planches : lecture des fichiers Excel avec SheetJS 0.20.3 (failles de la 0.18.5 corrigées).\n- Enregistrement des dossiers : chemins contrôlés (impossible d'écrire hors du dossier choisi).\n- L'application refuse les requêtes venant d'un autre site et n'ouvre plus que les liens https / e-mail.\n- Le mot de passe e-mail enregistré n'est plus réutilisé si le serveur ou le compte changent : il faut le ressaisir.\n- Mises à jour : le fichier de version est vérifié strictement avant installation.",
-  "publishedAt": "2026-11-26T12:28:42.969Z"
+  "notes": "Fiabilité :\n- Le Studio garde le BAT en cours quand on change d'onglet (y compris avec « Créer la planche ») ; « Nouveau BAT » demande confirmation s'il reste des modifications.\n- Plus de dossier ni de version en double sur un double clic ou un raccourci répété ; Ctrl + Entrée dans les commentaires ne lance plus « BAT prêt ».\n- Statut, duplication, suppression, restauration : une erreur est affichée au lieu d'être ignorée ; « Restaurer » demande confirmation.\n- Gravure : le contrôle des traits fins et des espacements mesure la largeur réelle (un trait de 0,125 mm n'est plus déclaré conforme à 600 dpi) et tient compte de l'échelle du cadrage.\n- Dossier surveillé : un fichier traité qui ne peut pas être rangé (partage en lecture seule, fichier ouvert) n'est plus retraité en boucle.\n- Un fichier de dossier abîmé (coupure réseau) n'empêche plus d'afficher les autres ; enregistrements plus tolérants aux verrous de l'antivirus.\n- Moteur de rendu : relancé une seule fois après un plantage, et un rendu bloqué s'arrête au bout de 5 minutes au lieu d'attendre indéfiniment.\n- Téléchargement de l'original possible avec un nom contenant « ’ », des accents ou des emojis.\n- Aperçu métal : verso dessiné à la taille exacte de la carte métal (85 mm).",
+  "publishedAt": "2026-11-26T12:53:28.561Z"
 }
