@@ -1,9 +1,9 @@
 {
-  "version": "1.7.9",
-  "archive": "vkard-bat-studio-1.7.9.tar.gz",
-  "sha256": "d02af78f6733e17658d23c2a3bcc605d8c48c38e432d9ed6dc18f4a3d7a73593",
+  "version": "1.7.10",
+  "archive": "vkard-bat-studio-1.7.10.tar.gz",
+  "sha256": "30912efd28a0e4ddb530a29df55132f1f86172c9f71c4f904f8bc75a7a182244",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Production (fiabilité) :\n- La matière n'est plus lue dans les noms de personnes (un verso « …-ANNE-NOIR-… » restait sur la bonne planche ; avant, il partait sur CLASSIQUE-NOIR).\n- Plusieurs rectos dans une commande : le nom de la société ne suffit plus à apparier ; un appariement incertain est surligné « À vérifier ».\n- Doublons PREVIEW / PRINT et copies « (1) » : une seule carte, le fichier PRINT est utilisé.\n- « …RECTO-VERSO.pdf » de 2 pages : recto page 1, verso page 2.\n- Les calques masqués des PDF (traits de coupe, repères) ne s'impriment plus sur les planches.\n- Un PDF protégé ou illisible est écarté avec un message au lieu de bloquer toute la production.\n- Un deuxième enregistrement crée « PLANCHE (2) » au lieu de se mélanger à l'ancien dossier.\n- Quantité saisissable au clavier, liste conservée quand on change d'onglet, aperçus plus légers en mémoire, recomposition plus rapide.",
-  "publishedAt": "2026-11-26T12:16:01.966Z"
+  "notes": "Sécurité :\n- Planches : les PDF clients ne peuvent plus exécuter de code dans l'application (faille pdf.js CVE-2024-4367 neutralisée, exécution de code interdite dans la page).\n- Planches : lecture des fichiers Excel avec SheetJS 0.20.3 (failles de la 0.18.5 corrigées).\n- Enregistrement des dossiers : chemins contrôlés (impossible d'écrire hors du dossier choisi).\n- L'application refuse les requêtes venant d'un autre site et n'ouvre plus que les liens https / e-mail.\n- Le mot de passe e-mail enregistré n'est plus réutilisé si le serveur ou le compte changent : il faut le ressaisir.\n- Mises à jour : le fichier de version est vérifié strictement avant installation.",
+  "publishedAt": "2026-11-26T12:28:42.969Z"
 }
