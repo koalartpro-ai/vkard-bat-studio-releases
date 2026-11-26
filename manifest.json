@@ -1,9 +1,9 @@
 {
-  "version": "1.7.5",
-  "archive": "vkard-bat-studio-1.7.5.tar.gz",
-  "sha256": "78d581803e4896dfab0ea0040b13a2ea1947db8abbfd60ca8f9e7cd175e163c2",
+  "version": "1.7.6",
+  "archive": "vkard-bat-studio-1.7.6.tar.gz",
+  "sha256": "58353f7766eeb41cba08a954f5603e5672f63189be2b4e80cb8fc744bda7b443",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Planches :\n- Détection automatique de deux polices sur une même ligne : si le prénom et le NOM sont écrits avec deux polices ou deux graisses dans la carte (ex. Regular + Bold), le NOM reçoit automatiquement sa police (« Police par champ »), graisse comprise pour les polices variables.",
-  "publishedAt": "2026-11-23T12:48:20.174Z"
+  "notes": "Production (nouvel onglet) :\n- Déposer un dossier de cartes « n° de commande-…-RECTO.pdf » / « …-VERSO.pdf » : les cartes sont rangées par commande, le recto d'une commande est répété pour chacun de ses versos, et deux planches alignées (recto, verso) sont composées pour le board A3 de la matière (calage de l'onglet Planches repris).\n- Quantité et matière modifiables par carte, aperçu des deux planches avec l'ordre de chargement, option verso en miroir.\n- « Enregistrer le dossier » : dossier PLANCHE-<date>-<commandes> avec les deux planches et un sous-dossier « sources » contenant tous les PDF.",
+  "publishedAt": "2026-11-26T09:54:34.509Z"
 }
