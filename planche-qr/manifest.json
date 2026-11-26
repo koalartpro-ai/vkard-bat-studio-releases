@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
-  "archive": "planche-qr-1.2.0.tar.gz",
+  "version": "1.2.1",
+  "archive": "planche-qr-1.2.1.tar.gz",
   "minShell": 1,
-  "sha256": "9f460dfedb1b8740a68472bab75b6d4cb2bdf038ecdb43370943c305d7468a0a",
-  "notes": "- Mises à jour 100 % automatiques : la coquille de l'application (enregistrement des fichiers, dossiers, menus…) se met désormais à jour en direct, comme l'interface. Plus besoin de réinstaller pour ce type d'évolution (installateur 1.2 à installer une dernière fois).\n- Une mise à jour défaillante est écartée automatiquement et l'application repart sur la version intégrée.\n",
-  "publishedAt": "2026-11-19T12:56:07.336Z"
+  "sha256": "f1f906ad77f9e0e6d8aad67b661f7a9aee3b23c13c59eaee06d5c32f225b2769",
+  "notes": "- Sécurité : les PDF clients ne peuvent plus exécuter de code dans l'application (faille pdf.js CVE-2024-4367 neutralisée, exécution de code interdite dans la page).\n- Sécurité : lecture des fichiers Excel avec SheetJS 0.20.3 (failles de la 0.18.5 corrigées).\n- Enregistrement en dossier : chemins contrôlés, et un dossier existant n'est plus complété (création de « NOM (2) »).\n- Un fichier lâché hors des zones de dépôt ne remplace plus l'application ; seuls les liens https / e-mail s'ouvrent.\n- Une mise à jour saine n'est plus écartée à tort après un téléchargement ou une navigation annulée.\n",
+  "publishedAt": "2026-11-26T12:29:30.876Z"
 }
