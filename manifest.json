@@ -1,9 +1,9 @@
 {
-  "version": "1.7.6",
-  "archive": "vkard-bat-studio-1.7.6.tar.gz",
-  "sha256": "58353f7766eeb41cba08a954f5603e5672f63189be2b4e80cb8fc744bda7b443",
+  "version": "1.7.7",
+  "archive": "vkard-bat-studio-1.7.7.tar.gz",
+  "sha256": "fa840ddcc0dde0a24f9f2c0b47c5a77331d0fdf46a0f7e28dc2ca4c2aee709d9",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Production (nouvel onglet) :\n- Déposer un dossier de cartes « n° de commande-…-RECTO.pdf » / « …-VERSO.pdf » : les cartes sont rangées par commande, le recto d'une commande est répété pour chacun de ses versos, et deux planches alignées (recto, verso) sont composées pour le board A3 de la matière (calage de l'onglet Planches repris).\n- Quantité et matière modifiables par carte, aperçu des deux planches avec l'ordre de chargement, option verso en miroir.\n- « Enregistrer le dossier » : dossier PLANCHE-<date>-<commandes> avec les deux planches et un sous-dossier « sources » contenant tous les PDF.",
-  "publishedAt": "2026-11-26T09:54:34.509Z"
+  "notes": "Production :\n- Métal Gold et Métal Silver réunis sur la même planche METAL (l'aperçu indique GOLD / SILVER sur chaque emplacement).\n- Rectos en calques (RECTO-COULEUR + RECTO-BLANC, PVC noir, bambou) : une planche par calque, soit 3 planches (recto couleur, recto blanc, verso).\n- Dossier de sortie nommé simplement PLANCHE, sources dans SOURCES, rangées par matière (METAL-GOLD, METAL-SILVER…) quand le dépôt en mélange plusieurs. Noms de dossiers en majuscules.\n- Une page vide (calque sans contenu) est signalée au lieu de bloquer la composition.",
+  "publishedAt": "2026-11-26T10:32:26.180Z"
 }
