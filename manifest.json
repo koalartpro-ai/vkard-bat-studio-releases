@@ -1,9 +1,9 @@
 {
-  "version": "1.7.7",
-  "archive": "vkard-bat-studio-1.7.7.tar.gz",
-  "sha256": "fa840ddcc0dde0a24f9f2c0b47c5a77331d0fdf46a0f7e28dc2ca4c2aee709d9",
+  "version": "1.7.8",
+  "archive": "vkard-bat-studio-1.7.8.tar.gz",
+  "sha256": "6a22572f0d631b434587212ee821008d7ac4592e837f57398ae12b5838a5dfea",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Production :\n- Métal Gold et Métal Silver réunis sur la même planche METAL (l'aperçu indique GOLD / SILVER sur chaque emplacement).\n- Rectos en calques (RECTO-COULEUR + RECTO-BLANC, PVC noir, bambou) : une planche par calque, soit 3 planches (recto couleur, recto blanc, verso).\n- Dossier de sortie nommé simplement PLANCHE, sources dans SOURCES, rangées par matière (METAL-GOLD, METAL-SILVER…) quand le dépôt en mélange plusieurs. Noms de dossiers en majuscules.\n- Une page vide (calque sans contenu) est signalée au lieu de bloquer la composition.",
-  "publishedAt": "2026-11-26T10:32:26.180Z"
+  "notes": "Production :\n- Planche METAL : tous les Gold d'abord, puis tous les Silver à la suite (dans l'ordre des commandes pour chaque matière).",
+  "publishedAt": "2026-11-26T10:34:53.527Z"
 }
