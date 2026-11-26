@@ -1,9 +1,9 @@
 {
-  "version": "1.7.12",
-  "archive": "vkard-bat-studio-1.7.12.tar.gz",
-  "sha256": "a893389f15349e213568736fb1e1d3f32fe621ad7d80eb86ce834fff8e23830c",
+  "version": "1.7.13",
+  "archive": "vkard-bat-studio-1.7.13.tar.gz",
+  "sha256": "8373f2c5774c94f383acbe33352548d2228aa1bfacef32050ca52c9482bc2bbd",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Espace disque (Réglages > Espace disque) :\n- Place occupée par les données de l'application : dossiers, exports, fichiers importés.\n- Nettoyages sans risque, annoncés et confirmés : caches de rendu, fichiers importés qui ne servent à aucun dossier, exports des versions dépassées (le dernier PDF et PNG de chaque dossier sont gardés), fichiers temporaires.\n- Archivage des dossiers anciens en ZIP (fiche, versions, exports et fichiers originaux).\n- Fichiers temporaires et imports ratés supprimés automatiquement au démarrage.\n- Un fichier déjà importé n'est plus stocké une seconde fois ; un import raté ne laisse plus rien sur le disque.",
-  "publishedAt": "2026-11-26T13:12:11.154Z"
+  "notes": "Espace disque :\n- Nouveau : « Restaurer » une archive. Le dossier revient dans « Dossiers » avec ses versions, ses exports et ses fichiers originaux ; l'archive est conservée.\n- « Fichiers orphelins » précise qu'il ne supprime que les copies internes de l'application, jamais vos fichiers sur l'ordinateur.",
+  "publishedAt": "2026-11-26T13:17:13.409Z"
 }
