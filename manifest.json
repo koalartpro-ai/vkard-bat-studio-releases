@@ -1,9 +1,9 @@
 {
-  "version": "1.7.11",
-  "archive": "vkard-bat-studio-1.7.11.tar.gz",
-  "sha256": "15efd282dc59df50c54b54965aedd797c20dd50e98e53eca57480733cda7b5a1",
+  "version": "1.7.12",
+  "archive": "vkard-bat-studio-1.7.12.tar.gz",
+  "sha256": "a893389f15349e213568736fb1e1d3f32fe621ad7d80eb86ce834fff8e23830c",
   "minShell": 1,
   "depsKey": "sharp@0.33.5|pdfjs-dist@4.10.38",
-  "notes": "Fiabilité :\n- Le Studio garde le BAT en cours quand on change d'onglet (y compris avec « Créer la planche ») ; « Nouveau BAT » demande confirmation s'il reste des modifications.\n- Plus de dossier ni de version en double sur un double clic ou un raccourci répété ; Ctrl + Entrée dans les commentaires ne lance plus « BAT prêt ».\n- Statut, duplication, suppression, restauration : une erreur est affichée au lieu d'être ignorée ; « Restaurer » demande confirmation.\n- Gravure : le contrôle des traits fins et des espacements mesure la largeur réelle (un trait de 0,125 mm n'est plus déclaré conforme à 600 dpi) et tient compte de l'échelle du cadrage.\n- Dossier surveillé : un fichier traité qui ne peut pas être rangé (partage en lecture seule, fichier ouvert) n'est plus retraité en boucle.\n- Un fichier de dossier abîmé (coupure réseau) n'empêche plus d'afficher les autres ; enregistrements plus tolérants aux verrous de l'antivirus.\n- Moteur de rendu : relancé une seule fois après un plantage, et un rendu bloqué s'arrête au bout de 5 minutes au lieu d'attendre indéfiniment.\n- Téléchargement de l'original possible avec un nom contenant « ’ », des accents ou des emojis.\n- Aperçu métal : verso dessiné à la taille exacte de la carte métal (85 mm).",
-  "publishedAt": "2026-11-26T12:53:28.561Z"
+  "notes": "Espace disque (Réglages > Espace disque) :\n- Place occupée par les données de l'application : dossiers, exports, fichiers importés.\n- Nettoyages sans risque, annoncés et confirmés : caches de rendu, fichiers importés qui ne servent à aucun dossier, exports des versions dépassées (le dernier PDF et PNG de chaque dossier sont gardés), fichiers temporaires.\n- Archivage des dossiers anciens en ZIP (fiche, versions, exports et fichiers originaux).\n- Fichiers temporaires et imports ratés supprimés automatiquement au démarrage.\n- Un fichier déjà importé n'est plus stocké une seconde fois ; un import raté ne laisse plus rien sur le disque.",
+  "publishedAt": "2026-11-26T13:12:11.154Z"
 }
